@@ -1,0 +1,102 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {  
+  animation: 4s ease 0s myOpacity;
+  background-color: transparent;
+  .background-image: url(n14.jpg);
+  background-size: cover;
+}  
+
+#form {
+  width: 300px;
+  margin: 2vh auto 0 auto;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 4px;
+  font-size: 18px;
+  color: #e9f4fb;
+}
+
+#form h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+}
+
+#form button {
+  width: 100%;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 15px ;
+}
+
+#form button:hover {
+  background: #00bcd4;
+  color: #e9f4fb  ;
+  transition: .5s;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-control input {
+  border: 2px solid #f0f0f0;
+border-radius: 4px;
+display: block;
+font-size: 12px;
+padding: 15px;
+width: 100%;
+}
+
+.input-control input:focus {
+  outline: 0;
+}
+
+.input-control.success input {
+  border-color: #09c372;
+}
+
+.input-control.error input {
+  border-color: #ff3860;
+}
+
+.input-control .error {
+  color: #ff3860;
+  font-size: 18px;
+  height: 13px;
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+

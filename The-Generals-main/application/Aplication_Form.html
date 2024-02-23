@@ -1,0 +1,98 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="styleAplication.css">
+<script defer src="./Application.js"></script>      
+</head>  
+<center><body>
+<form name ="MyForm" id="form" action="/">  
+  <div class="container">  
+  <center>  <h1> Bright Future Tutors Application Form</h1> </center> </div> 
+  <hr> 
+  <div class="input-control"> 
+  <label><b>First Name</b> </label><br>   
+<input type="text" id="FirstName" name="FirstName" placeholder= "First name" />
+<div class="error"></div> 
+</div> 
+<div class="input-control"> 
+<label><b>Middle Name</b> </label><br>   
+<input type="text"  id="MiddleName" name="MiddleName" placeholder="Middle name" />
+<div class="error"></div>
+</div>
+<div class="input-control">   
+<label><b>Last Name</b> </label><br>    
+<input type="text"  id="LastName" name="LastName" placeholder="Last name" /> 
+<div class="error"></div>
+</div>
+<div>
+<div class="input-control">
+<label>   
+<b>ID Number</b>   
+</label><br>     
+<input type="text" name="ID_Number" id="IDNumber" placeholder="Please enter phone Your ID Number." />
+<div class="error"></div>
+</div>  
+<label>   
+<b>Course</b>   
+</label><br><br> 
+<div class="form-inline" >  
+  <input type="checkbox" id="Courses" name="Mathematics" value="Mathematics" />
+  Mathematics
+  <input type="checkbox" id="Courses" name="Physics" value="Physics" />
+  Physics
+  <input type="checkbox" id="Courses" name="Accounting" value="Accounting" />
+  Accounting
+  <div class="error"></div>
+</div>  
+<div class="input-control">  
+<label><b>Gender</b></label><br>
+  <select id="genderInput">
+    <option value="" selected disabled>Select your gender</option>
+    <option value="Male" id="Male">Male</option>
+    <option value="Female" id="Female">Female</option>
+  </select>
+  <div class="error"></div>
+</div>
+<div class="input-control">
+  <label for="date"><b>Birth Date</b></label><br>
+  <input type="date" id="dateInput" placeholder="Select your date">
+  <div class="error"></div>
+</div>  
+<div class="box">  
+<label>   
+<b>Do you have a disability ?</b>   
+</label><br><br>
+   <div class="form-inline" id="Disability">  
+    <input type="radio" value="Yes" id="yes"  name="Disability" > Yes   
+    <input type="radio" value="No"   id="no" name="Disability"> No
+   </div>
+    <div class="error"></div>     
+</div>
+<div class="input-control">
+<label><b> If yes, please specify below :</b></label><br>    
+<input type="text" name="DisabilityName" id="DisabilityName" placeholder="Name of Disability" />
+<div class="error"></div>
+</div>
+<div class="input-control">
+ <b>Phone</b>  
+</label><br>     
+<input class="phone" type="text" id="Phone" name="phone"  placeholder="Please enter phone number." />
+<div class="error"></div> 
+</div>
+<div class="input-control">
+<label> <b>Current Address</b> </label>   
+<input type="text" name="CurrentAddress" id="CurrentAddress" placeholder= "Current Address" />
+<div class="error"></div>
+</div>
+<div class="input-control">
+<label for="email"><b>Email</b></label> 
+<input type="text" placeholder="Please Enter Email" id="Email" name="Email"/>
+<div class="error"></div> 
+</div>
+   <button type="submit" class="registerbtn" >Submit Application</button>   
+</form>  
+</body></center>  
+</html>  
